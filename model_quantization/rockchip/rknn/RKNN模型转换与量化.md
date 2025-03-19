@@ -1,4 +1,18 @@
-# 模型转换与量化
+# 1 环境配置
+
+[GitHub - airockchip/rknn-toolkit2](https://github.com/airockchip/rknn-toolkit2/tree/master)
+
+```bash
+pip install rknn-toolkit2 -i https://pypi.org/simple
+```
+
+测试安装成功
+
+```python
+from rknn.api import RKNN
+```
+
+# 2 模型转换与量化
 
 ```python
 import sys
@@ -85,25 +99,3 @@ if __name__ == '__main__':
 ```bash
 python3 {} onnx_model_path [platform] [dtype(optional)] [output_rknn_path(optional)]
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
