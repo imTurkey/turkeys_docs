@@ -86,7 +86,7 @@ _ = converter.convert_to_tflite(
 
 * 由于NeuroPilot内部张量形状为NHWC，因此在模型转换的时候，会在前后自动插入一个Transpose算子
 
-![](.\src\transpose_in.png)![](.\src\transpose_out.png)
+![](./src/transpose_in.png)![](./src/transpose_out.png)
 
 ## 2.3 ModelWrapper
 
@@ -279,7 +279,7 @@ mtk_converter.plot_model_quant_error(converter, input_data, out_put_analysis)
 
 NeuroPilot会生成这样一张图片：
 
-![](.\src\summary.png)
+![](./src/summary.png)
 
 ### 3.4 高级量化功能
 
