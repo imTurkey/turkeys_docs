@@ -23,7 +23,7 @@ class PatchEmbedding(nn.Module):
 
 # Multi-head Attention
 
-![](src/vit1.png)
+![](src/dot.png)
 
 ```python
 class MultiHeadAttention(nn.Module):
@@ -52,7 +52,7 @@ class MultiHeadAttention(nn.Module):
 
 # Transformer Encoder
 
-![](src/vit2.png)
+![](src/vit1.png)
 
 ```python
 class TransformerBlock(nn.Module):
@@ -136,5 +136,3 @@ class ViT(nn.Module):
         output = self.head(cls_token_output)
         return output
 ```
-
-
